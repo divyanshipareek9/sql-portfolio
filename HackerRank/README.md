@@ -4,8 +4,7 @@ Welcome to my dedicated HackerRank solutions workspace. This directory contains 
 
 ## 🎖️ Skill Validations & Milestones
 *   **📜 SQL (Intermediate) Certificate:** Successfully cleared the structured database evaluation verifying multi-table logic paths and composite filtering constraints.
-*   **🎯 Focus Areas:** Advanced aggregation mapping, relational mapping constraints, subquery optimization, and functional rounding configurations.
-
+*   **🎯 Focus Areas: Analytical multi-table aggregation, referential integrity mapping, correlated subquery performance optimization, and fixed-point formatting control.
 ---
 
 ## 📂 Core Business Case Studies

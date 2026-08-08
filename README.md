@@ -1,26 +1,33 @@
-# 📊 SQL Portfolio Hub
+# 📊 SQL Problem Solving Hub
 
-Welcome to my centralized engineering portfolio dedicated to relational database diagnostics, query optimization, and structured business logic translation. 
+Welcome to my centralized engineering portfolio dedicated to structured database diagnostics, query optimization, and technical business logic mapping. This repository tracks production-simulation solutions to algorithmic database challenges across enterprise evaluation platforms.
 
-## 🛠️ Technical Competencies & Schema Architecture
-* **Database Engine:** MySQL / Standard SQL
-* **Core Proficiencies:** Relational Multi-Table Joins
-* **Filtering Logic:** Optimized Subqueries (`IN` / `NOT IN`)
-* **Aggregations:** Post-Filtration using `HAVING` operations
-* **Data Formatting:** Numerical Fixed-Point Precision Rounding
-
-## 📂 Repository Organization
-Assets are grouped systematically by host platform and individual business domains:
-* **`HackerRank/`** - Production-simulation test suites validating query execution speed and dataset accuracy.
+## 🛠️ Core Technical Competencies
+*   **Database Architecture:** Standard SQL (ISO/IEC 9075) / MySQL Engine 
+*   **Relational Operations:** Multi-table Entity Joining (`INNER` / `LEFT JOIN` paths)
+*   **Logical Filtration:** Optimized Subquery Nesting (`IN` / `NOT IN` configurations)
+*   **Dataset Aggregations:** Post-filtration using grouped `HAVING` operations
+*   **Data Formatting:** Fixed-Point Precision Truncation via native `ROUND()` functions
 
 ---
 
-## 📈 Inventory & Challenge Index
+## 📂 Repository Modularity
+To mirror production-grade cleanliness, assets are systematically isolated by hosting environment and core data domain structures:
 
-| Execution Environment | Business Case Study | Core Technical Implementations |
+*   **`HackerRank/`** — Automated assessment sandboxes evaluating cross-table constraints, dataset exceptions, and query execution efficiency.
+
+---
+
+## 📈 Central Project & Challenge Index
+
+| Execution Context | Business Domain | Core Architectural Implementations |
 | :--- | :--- | :--- |
-| HackerRank | [📦 Products Without Sales](./HackerRank/Products-Without-Sales/) | Unlinked record lookup optimization using indexed subqueries |
-| HackerRank | [🌐 Regional Invoice Metrics](./HackerRank/Country-Invoices-Analysis/) | Multi-layer entity joining combined with global average subquery filtration |
+| HackerRank | [📦 Products Without Sales](./HackerRank/Products-Without-Sales/) | Unlinked record lookup optimization leveraging indexed subqueries |
+| HackerRank | [🌐 Global Invoice Metrics Analysis](./HackerRank/Country-Invoices-Analysis/) | Multi-layer relational joins combined with dynamic global average subquery filtration |
 
 ---
+## 🎯 Continuous Skill Cultivation
+This repository serves as a live ledger of my database capabilities. Future iterations will incorporate complex data manipulation scripts, window function partitioning, and comprehensive database views from additional platforms like LeetCode and StrataScratch.
+
 *Maintained with strict adherence to analytical best practices by [divyanshipareek9](https://github.com).*
+

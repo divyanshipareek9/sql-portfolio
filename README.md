@@ -1,4 +1,4 @@
-# 📊 SQL Problem Solving Hub
+# 📊 SQL Portfolio Hub
 
 Welcome to my centralized engineering portfolio dedicated to relational database diagnostics, query optimization, and structured business logic translation. 
 

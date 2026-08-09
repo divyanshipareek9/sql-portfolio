@@ -1,7 +1,7 @@
 -- ===================================================================================
 -- PLATFORM         : LeetCode #176 (Second Highest Salary)
 -- CORE MECHANICS   : LIMIT 1 OFFSET 1 with Outer Scalar SELECT
--- ===================================================================================
+-- -----------------------------------------------------------------------------------
 -- TECHNICAL LOGIC:
 -- 1. Deduplicates and sorts records via 'DISTINCT' and 'ORDER BY DESC'.
 -- 2. Extracts the runner-up salary position using 'LIMIT 1 OFFSET 1'.

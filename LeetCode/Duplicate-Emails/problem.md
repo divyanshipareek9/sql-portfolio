@@ -1,7 +1,8 @@
 # LeetCode 182: Duplicate Emails
 
-**Difficulty:** Easy  
 **Category:** Relational Databases / Data Aggregation
+**Problem Link:** [LeetCode #182 - Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
+
 
 ---
 

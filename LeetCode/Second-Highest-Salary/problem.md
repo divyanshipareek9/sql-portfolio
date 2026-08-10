@@ -1,7 +1,8 @@
 # LeetCode 176: Second Highest Salary
-
-**Difficulty:** Medium  
+ 
 **Category:** Relational Databases / Data Retrieval
+**Problem Link:** [LeetCode #176 - Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
+
 
 ---
 

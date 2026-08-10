@@ -2,7 +2,6 @@
 
 # LeetCode 183: Customers Who Never Order
 
-**Difficulty:** Easy  
 **Category:** Relational Databases / Table Joins & Filtering  
 **Problem Link:** [LeetCode #183 - Customers Who Never Order](https://leetcode.com)
 

@@ -14,10 +14,10 @@ Understanding user engagement and purchasing cycles is fundamental for marketing
 * **Analytical Logic**: Combines the full `Customers` matrix with the `Orders` transactional ledger. By filtering for records where the right-side join attribute (`o.customerId`) is natively `NULL`, it cleanly isolates customers without purchase records.
 * **Business Advantage**: Highly scalable and highly optimized for enterprise relational query engines. It avoids heavy nested scans, making it the industry standard for production reporting pipelines.
 
-### Approach 2: Subquery Filtering via `NOT IN`
+### Approach 2: Deduplicated Subquery Filtering via `NOT IN`
 * **File Reference**: `solution_02_not_in.sql`
-* **Analytical Logic**: Compiles a unique list of purchasing customer IDs from the `Orders` ledger layer, and then uses a `NOT IN` filter on the outer customer query to find entries absent from that collection.
-* **Risk Note**: While logically straightforward, `NOT IN` predicates can fail or return zero rows if the subquery contains a single unintended `NULL` value. It is vital to handle or guarantee non-null parameters when using this architecture.
+* **Analytical Logic**: Compiles an active collection of customer IDs from the transactional table. It leverages `DISTINCT` to shrink execution overhead on massive corporate ledgers, while applying an explicit `WHERE customerId IS NOT NULL` validation rule to shield the evaluation array.
+* **Data Integrity Control**: This combination optimizes reporting runtimes. Adding the non-null criteria directly protects the data pipeline, ensuring the core `NOT IN` logic does not break or collapse into an empty dataset if messy row lines slip in.
 
 ---
 

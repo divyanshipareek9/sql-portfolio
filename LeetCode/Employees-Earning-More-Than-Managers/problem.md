@@ -1,6 +1,5 @@
 # LeetCode 181: Employees Earning More Than Their Managers
 
-**Difficulty:** Easy  
 **Category:** Relational Databases / Self-Joins & Hierarchical Data  
 **Problem Link:** [LeetCode #181 - Employees Earning More Than Their Managers](https://leetcode.com)
 

@@ -1,4 +1,4 @@
-# 🏙️ Japanese Cities Full Attributes (HackerRank)
+# 🏙️ Japan Cities Full Attributes (HackerRank)
 
 > 📋 [Click here to view the full Database Schema & Constraints](./problem.md)
 

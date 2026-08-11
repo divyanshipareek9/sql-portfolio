@@ -1,6 +1,6 @@
 -- ===================================================================================
 -- PLATFORM         : HackerRank (SQL - Basic Select)
--- PROBLEM          : Japanese Cities' Attributes
+-- PROBLEM          : Japane Cities Full Attributes
 -- CORE MECHANICS   : Categorical Text Filtering (WHERE Column = String Literal)
 -- -----------------------------------------------------------------------------------
 -- TECHNICAL LOGIC:

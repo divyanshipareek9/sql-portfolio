@@ -1,4 +1,4 @@
-# HackerRank: Japanese Cities' Attributes
+# HackerRank: Japan Cities Full Attributes
 
 **Category:** Relational Databases / Categorical Attribute Filtering  
 **Problem Link:** [HackerRank - Japanese Cities' Attributes](https://hackerrank.com)
